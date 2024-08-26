@@ -1,7 +1,7 @@
 import { SignInButton, SignedOut, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
-import { ThemeToggler } from "@/components/ui/ThemeToggler"
+import { ThemeToggler } from "@/components/ThemeToggler"
 
 function Header() {
   return (
