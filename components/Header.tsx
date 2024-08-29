@@ -5,7 +5,7 @@ import { ThemeToggler } from "@/components/ThemeToggler"
 
 function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between max-w-screen-2xl mx-auto">
       <Link href="/" className="flex items-center space-x-2">
         <div className="bg-[#0160FE] w-fit">
           <Image

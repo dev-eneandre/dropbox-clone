@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="">
-      <div className="flex flex-col lg:flex-row items-center bg-[#1E1919] dark:bg-slate-800">
+    <main className="min-h-screen flex items-center">
+      <div className="flex flex-col lg:flex-row items-center bg-[#1E1919] dark:bg-slate-800 max-w-screen-2xl mx-auto">
         <div className="p-10 flex flex-col bg-[#2B2929] dark:bg-slate-800 text-white space-y-5">
           <h1 className="text-5xl font-bold">
             Welcome to Dropbox. <br />
@@ -39,15 +39,6 @@ export default function Home() {
           </video>
         </div>
       </div>
-
-      <p className="text-center font-bold text-xl pt-5">Disclaimer</p>
-      <p className="text-center font-light p-2">
-        This video is made for informational and educational purposes only. We
-        do not own or affiliate with Dropbox or/and any of its subsidiaries in
-        any form. Copyright Disclaimer under section 107 of the Copyright Act
-        1976, allowance is made for “fair use” of this video for education
-        purposes.
-      </p>
     </main>
   );
 }
